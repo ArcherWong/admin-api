@@ -1,0 +1,22 @@
+{
+  "name": "admin-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^7.4.2",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-jwt": "^3.2.2",
+    "koa-logger": "^3.0.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1",
+    "mongoose": "^4.11.6"
+  }
+}
